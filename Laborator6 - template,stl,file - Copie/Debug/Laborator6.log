@@ -1,0 +1,14 @@
+﻿  Aplicatie.cpp
+  Laborator6.cpp
+  Repo.cpp
+C:\Users\hp\Desktop\Laborator6 - Copie - fisier - template\Repo.cpp(78,43): error C2760: syntax error: unexpected token 'identifier', expected ';'
+C:\Users\hp\Desktop\Laborator6 - Copie - fisier - template\Repo.cpp(78,2): error C7510: 'iterator': use of dependent type name must be prefixed with 'typename'
+C:\Users\hp\Desktop\Laborator6 - Copie - fisier - template\Repo.cpp(95,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\hp\Desktop\Laborator6 - Copie - fisier - template\Repo.cpp(108,17): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\hp\Desktop\Laborator6 - Copie - fisier - template\Repo.cpp(114,1): error C2906: 'void Repo<AplicatieManagement>::saveToFile(void)': explicit specialization requires 'template <>'
+  RepoTeste.cpp
+  Service.cpp
+  UI.cpp
+  ValidareDate.cpp
+C:\Users\hp\Desktop\Laborator6 - Copie - fisier - template\ValidareDate.cpp(1,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Generating Code...
