@@ -18,9 +18,6 @@ int main()
 	testGetAll();
 	testDelete();
 	testUpdate();
-	
-	
-	
 	u.PrintMenu();
 }
 
