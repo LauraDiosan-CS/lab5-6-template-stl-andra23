@@ -31,8 +31,6 @@ Repo<AplicatieManagement>::Repo(const char* fileName){
 	delete[] status;
 	f.close();
 }
-
-
 void Repo<AplicatieManagement>::loadFromFile(const char* fileName){
 
 	

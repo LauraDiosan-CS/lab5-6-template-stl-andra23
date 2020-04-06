@@ -1,0 +1,5 @@
+﻿  TesteMemorie.cpp
+C:\Users\hp\Desktop\Laborator7-LIVE\TesteMemorie.cpp(1,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\hp\Desktop\Laborator7-LIVE\TesteMemorie.cpp(17,57): warning C4305: 'argument': truncation from '__int64' to 'int'
+C:\Users\hp\Desktop\Laborator7-LIVE\TesteMemorie.cpp(17,38): warning C4309: 'argument': truncation of constant value
+  Laborator6.vcxproj -> C:\Users\hp\Desktop\Laborator7-LIVE\Debug\Laborator6.exe

@@ -1,0 +1,4 @@
+MeisterTask 2300 ram
+ArgumentePro 3400 ram
+InstaWork 1000 swap
+
