@@ -1,0 +1,79 @@
+﻿  Comanda.cpp
+  Laborator8.cpp
+  Mancare.cpp
+C:\Users\hp\source\repos\Laborator8\Mancare.cpp(4,19): error C2248: 'Comanda::Comanda': cannot access private member declared in class 'Comanda'
+C:\Users\hp\source\repos\Laborator8\Comanda.h(22): message : see declaration of 'Comanda::Comanda'
+C:\Users\hp\source\repos\Laborator8\Comanda.h(7): message : see declaration of 'Comanda'
+C:\Users\hp\source\repos\Laborator8\Mancare.cpp(7,21): error C2248: 'Comanda::~Comanda': cannot access private member declared in class 'Comanda'
+C:\Users\hp\source\repos\Laborator8\Comanda.h(45): message : see declaration of 'Comanda::~Comanda'
+C:\Users\hp\source\repos\Laborator8\Comanda.h(7): message : see declaration of 'Comanda'
+  RepoFile.cpp
+C:\Users\hp\source\repos\Laborator8\Repo.h(8,5): error C2143: syntax error: missing ';' before '<'
+C:\Users\hp\source\repos\Laborator8\Repo.h(21): message : see reference to class template instantiation 'Repo<T>' being compiled
+C:\Users\hp\source\repos\Laborator8\Repo.h(8,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\hp\source\repos\Laborator8\Repo.h(8,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Users\hp\source\repos\Laborator8\Repo.h(17,5): error C2143: syntax error: missing ';' before '<'
+C:\Users\hp\source\repos\Laborator8\Repo.h(17,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\hp\source\repos\Laborator8\Repo.h(17,1): error C2238: unexpected token(s) preceding ';'
+C:\Users\hp\source\repos\Laborator8\Repo.h(28,2): error C3861: 'elem': identifier not found
+C:\Users\hp\source\repos\Laborator8\Repo.h(28,14): error C3861: 'pair': identifier not found
+C:\Users\hp\source\repos\Laborator8\Repo.h(33,13): error C3861: 'elem': identifier not found
+C:\Users\hp\source\repos\Laborator8\Repo.h(34,2): error C3861: 'elem': identifier not found
+C:\Users\hp\source\repos\Laborator8\Repo.h(38,2): error C3861: 'elem': identifier not found
+C:\Users\hp\source\repos\Laborator8\Repo.h(43,9): error C3861: 'elem': identifier not found
+C:\Users\hp\source\repos\Laborator8\Repo.h(46,21): error C2988: unrecognizable template declaration/definition
+C:\Users\hp\source\repos\Laborator8\Repo.h(46,21): error C2143: syntax error: missing ';' before '<'
+C:\Users\hp\source\repos\Laborator8\Repo.h(46,21): error C2059: syntax error: '<'
+C:\Users\hp\source\repos\Laborator8\Repo.h(46,35): error C2065: 'T': undeclared identifier
+C:\Users\hp\source\repos\Laborator8\Repo.h(46,30): error C2923: 'Repo': 'T' is not a valid template type argument for parameter 'T'
+C:\Users\hp\source\repos\Laborator8\Repo.h(46,48): error C2143: syntax error: missing ';' before '{'
+C:\Users\hp\source\repos\Laborator8\Repo.h(46,48): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\hp\source\repos\Laborator8\Repo.h(52,2): error C3861: 'elem': identifier not found
+C:\Users\hp\source\repos\Laborator8\Repo.h(56,9): error C3861: 'elem': identifier not found
+C:\Users\hp\source\repos\Laborator8\Repofile.h(5,30): error C2065: 'AplicatieManagement': undeclared identifier
+C:\Users\hp\source\repos\Laborator8\Repofile.h(5,25): error C2923: 'Repo': 'AplicatieManagement' is not a valid template type argument for parameter 'T'
+C:\Users\hp\source\repos\Laborator8\Repofile.h(5,51): error C2955: 'Repo': use of class template requires template argument list
+C:\Users\hp\source\repos\Laborator8\Repo.h(5): message : see declaration of 'Repo'
+C:\Users\hp\source\repos\Laborator8\Repofile.h(10,34): error C2061: syntax error: identifier 'AplicatieManagement'
+C:\Users\hp\source\repos\Laborator8\Repofile.h(12,50): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\hp\source\repos\Laborator8\RepoFile.cpp(7,23): error C2614: 'RepoFile': illegal member initialization: 'Repo' is not a base or member
+C:\Users\hp\source\repos\Laborator8\RepoFile.cpp(18,24): error C2065: 'Comanda': undeclared identifier
+C:\Users\hp\source\repos\Laborator8\RepoFile.cpp(18,32): error C2146: syntax error: missing ')' before identifier 'a'
+C:\Users\hp\source\repos\Laborator8\RepoFile.cpp(18,35): error C2143: syntax error: missing ';' before '{'
+C:\Users\hp\source\repos\Laborator8\RepoFile.cpp(18,35): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\hp\source\repos\Laborator8\RepoFile.cpp(25,8): error C2955: 'Repo': use of class template requires template argument list
+C:\Users\hp\source\repos\Laborator8\Repo.h(5): message : see declaration of 'Repo'
+C:\Users\hp\source\repos\Laborator8\RepoFile.cpp(25,8): error C2352: 'Repo<T>::delElem': illegal call of non-static member function
+C:\Users\hp\source\repos\Laborator8\Repo.h(14): message : see declaration of 'Repo<T>::delElem'
+C:\Users\hp\source\repos\Laborator8\RepoFile.cpp(28,54): error C2061: syntax error: identifier 'AplicatieManagement'
+C:\Users\hp\source\repos\Laborator8\RepoFile.cpp(28,57): error C2511: 'void RepoFile::updateElem(int)': overloaded member function not found in 'RepoFile'
+C:\Users\hp\source\repos\Laborator8\Repofile.h(5): message : see declaration of 'RepoFile'
+C:\Users\hp\source\repos\Laborator8\RepoFile.cpp(30,8): error C2955: 'Repo': use of class template requires template argument list
+C:\Users\hp\source\repos\Laborator8\Repo.h(5): message : see declaration of 'Repo'
+C:\Users\hp\source\repos\Laborator8\RepoFile.cpp(30,22): error C2065: 'a': undeclared identifier
+C:\Users\hp\source\repos\Laborator8\RepoFile.cpp(31,2): error C2352: 'RepoFile::saveToFile': illegal call of non-static member function
+C:\Users\hp\source\repos\Laborator8\Repofile.h(14): message : see declaration of 'RepoFile::saveToFile'
+C:\Users\hp\source\repos\Laborator8\RepoFile.cpp(36,2): error C2065: 'elem': undeclared identifier
+C:\Users\hp\source\repos\Laborator8\RepoFile.cpp(37,2): error C2065: 'fis': undeclared identifier
+C:\Users\hp\source\repos\Laborator8\RepoFile.cpp(38,2): error C2065: 'ifstream': undeclared identifier
+C:\Users\hp\source\repos\Laborator8\RepoFile.cpp(38,11): error C2146: syntax error: missing ';' before identifier 'f'
+C:\Users\hp\source\repos\Laborator8\RepoFile.cpp(38,11): error C3861: 'f': identifier not found
+C:\Users\hp\source\repos\Laborator8\RepoFile.cpp(42,10): error C2065: 'f': undeclared identifier
+C:\Users\hp\source\repos\Laborator8\RepoFile.cpp(43,3): error C2065: 'f': undeclared identifier
+C:\Users\hp\source\repos\Laborator8\RepoFile.cpp(45,4): error C2065: 'AplicatieManagement': undeclared identifier
+C:\Users\hp\source\repos\Laborator8\RepoFile.cpp(45,24): error C2146: syntax error: missing ';' before identifier 'a'
+C:\Users\hp\source\repos\Laborator8\RepoFile.cpp(45,24): error C3861: 'a': identifier not found
+C:\Users\hp\source\repos\Laborator8\RepoFile.cpp(46,4): error C2065: 'elem': undeclared identifier
+C:\Users\hp\source\repos\Laborator8\RepoFile.cpp(46,16): error C2065: 'pair': undeclared identifier
+C:\Users\hp\source\repos\Laborator8\RepoFile.cpp(46,45): error C2062: type 'int' unexpected
+C:\Users\hp\source\repos\Laborator8\RepoFile.cpp(53,2): error C2065: 'f': undeclared identifier
+C:\Users\hp\source\repos\Laborator8\RepoFile.cpp(58,2): error C2065: 'ofstream': undeclared identifier
+C:\Users\hp\source\repos\Laborator8\RepoFile.cpp(58,11): error C2146: syntax error: missing ';' before identifier 'f'
+C:\Users\hp\source\repos\Laborator8\RepoFile.cpp(58,13): error C2065: 'fis': undeclared identifier
+C:\Users\hp\source\repos\Laborator8\RepoFile.cpp(58,11): error C3861: 'f': identifier not found
+C:\Users\hp\source\repos\Laborator8\RepoFile.cpp(59,16): error C2065: 'elem': undeclared identifier
+C:\Users\hp\source\repos\Laborator8\RepoFile.cpp(59,32): error C3536: 'i': cannot be used before it is initialized
+C:\Users\hp\source\repos\Laborator8\RepoFile.cpp(59,35): error C2065: 'elem': undeclared identifier
+C:\Users\hp\source\repos\Laborator8\RepoFile.cpp(60,3): error C2065: 'f': undeclared identifier
+C:\Users\hp\source\repos\Laborator8\RepoFile.cpp(61,2): error C2065: 'f': undeclared identifier
+  Generating Code...
